@@ -5,7 +5,8 @@ class Fizzbuzz
     @isDivisibleBy number, 3
 
   isDivisibleByFive: (number) ->
-    number % 5 == 0
+    # number % 5 == 0
+    @isDivisibleBy number, 5
 
   isDivisibleBy: (number, divi) ->
     number % divi == 0
