@@ -11,4 +11,12 @@ class Fizzbuzz
   isDivisibleBy: (number, divi) ->
     number % divi == 0
 
+  play: (number) ->
+    if @isDivisibleBy number, 15
+      return "FizzBuzz"
+    if @isDivisibleBy number, 3
+      return "Fizz"
+    if @isDivisibleBy number, 5
+      return "Buzz"
+
 module.exports = Fizzbuzz
