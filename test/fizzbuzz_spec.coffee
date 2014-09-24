@@ -40,3 +40,9 @@ describe 'Fizzbuzz', ->
 
   it 'should return "FizzBuzz" on 15', ->
     expect(@fizzbuzz.play(15)).to.equal "FizzBuzz"
+
+  it 'should return the number itself if not divisible by three or five', ->
+    expect(@fizzbuzz.play(4)).to.equal 4
+    expect(@fizzbuzz.play(11)).to.equal 11
+    expect(@fizzbuzz.play(17)).to.equal 17
+

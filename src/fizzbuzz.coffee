@@ -15,5 +15,6 @@ class Fizzbuzz
     return "FizzBuzz" if @isDivisibleBy number, 15 
     return "Fizz" if @isDivisibleBy number, 3
     return "Buzz" if @isDivisibleBy number, 5
+    return number
 
 module.exports = Fizzbuzz
