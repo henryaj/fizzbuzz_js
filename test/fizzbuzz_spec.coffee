@@ -45,4 +45,5 @@ describe 'Fizzbuzz', ->
     expect(@fizzbuzz.play(4)).to.equal 4
     expect(@fizzbuzz.play(11)).to.equal 11
     expect(@fizzbuzz.play(17)).to.equal 17
+    expect(@fizzbuzz.play(22)).to.equal 22
 
